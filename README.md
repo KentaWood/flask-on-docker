@@ -1,4 +1,5 @@
 # Flask Dockerized with Postgres, Gunicorn, and Nginx
+# Description/Format Inspiration from https://github.com/testdrivenio/flask-on-docker 
 
 ## Overview
 The repository contains a step-by-step tutorial detailing how to configure Flask to run on Docker with Postgres. For production environments, Nginx and Gunicorn are added. The tutorial also covers serving static and user-uploaded media files via Nginx. At the end, a website is created where users can upload images (http://localhost:1328/upload) and view the uploaded files (http://localhost:1328/media/file_name).
